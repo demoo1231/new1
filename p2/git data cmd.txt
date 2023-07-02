@@ -1,0 +1,23 @@
+git config --global user.name "Sachin"
+git config --global user.email "sachinrrrock0890@gmail.com"
+
+
+				//to push pc folder to git repo
+
+echo "# cmdfolder1" >> README.md
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/demoo1231/cmdfolder1.git
+git push -u origin main
+
+echo "# try2" >> README.md
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/demoo1231/try2.git
+git push -u origin main
